@@ -1,0 +1,75 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    text-align: center;
+}
+
+.altura-a-b{
+    padding: 50px 0;
+}
+
+.logoTruequet{
+    width: 50px;
+    padding: 1px 0;
+}
+
+.logomde{
+    width: 130px;
+    margin: 10px 30px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.banner-video{
+    background-image: url("../imagenes/puntolimplio1.jpg");
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 200px 0;
+    position: relative;
+    text-align: center;
+}
+
+.banner-video .play{
+    width: 80px;
+    height:  80px;
+    position: relative;
+}
+
+.cabereca-contacto{
+    padding: 150px 0px 100px 0px;
+    background-image: url(../imagenes/fondo_san_gregorio.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+
+footer{
+    background-color: beige;
+    padding: 20px 0px;
+    text-align: center;
+}
+
+.iconos-redes{
+    width: 30px;
+    height: 2px 1px;
+}
+
+.transition {
+    transition: all 0.5s ease-in-out;
+}
+
+.transform:hover {
+    transform: scale(1.5);
+}
+
+.my-sm-0{
+    margin: 0px 10px 0px 0px;
+}
+

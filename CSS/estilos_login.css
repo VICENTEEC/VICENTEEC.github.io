@@ -1,0 +1,128 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-image: url(../imagenes/fondo_san_gregorio.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+}
+
+footer{
+    background-color: beige;
+    padding: 20px 0px;
+    text-align: center;
+}
+
+.logoTruequet{
+    width: 50px;
+    padding: 1px 0;
+}
+
+.logomde{
+    width: 130px;
+    margin: 10px 30px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.iconos-redes{
+    width: 30px;
+    height: 2px 1px;
+}
+
+.transition {
+    transition: all 0.5s ease-in-out;
+}
+
+.transform:hover {
+    transform: scale(1.5);
+}
+
+.my-sm-0{
+    margin: 0px 10px 0px 0px;
+}
+
+.formulario{
+    background-color: rgba(0,0,0,.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.568);
+    color: white;
+}
+
+.form-control{
+    text-align: center;
+    background:white;
+    border-style: none;
+    transition: 2s ease-in;
+    outline: none;
+    box-shadow: none
+}
+
+.form-control:focus{
+    background: none;
+    box-shadow: none;
+    outline: none;
+}
+
+.form-control::placeholder{
+    color: rgb(62, 94, 60);
+}
+
+.iniciar{
+    background-color: #222A3F;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 700!important;
+    color: white;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.568);
+    transition: 0.5s ease-in;
+}
+
+.iniciar:hover{
+    color: white;
+    transform: scale(1.2);
+    filter: saturate(3000%);
+}
+
+.olvide-contraseña{
+    color: rgb(214, 6, 6);
+    text-decoration-style: none;
+    text-decoration-line: none;
+}
+
+.olvide-contraseña:hover{
+    color: rgb(94, 255, 0);
+    cursor:pointer
+}
+
+.registrarse{
+    color: rgb(214, 6, 6);
+    text-decoration-style: none;
+    text-decoration-line: none;
+    font-size: 20px;
+    font-weight: 700!important;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 50px;
+    background: white;
+}
+
+.registrarse:hover{
+    color: rgb(94, 255, 0);
+    cursor:pointer
+
+}
+.form-group{
+    text-align: center;
+}
+

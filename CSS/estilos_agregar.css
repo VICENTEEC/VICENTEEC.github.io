@@ -1,0 +1,60 @@
+body{
+    background-image: url(../imagenes/fondo_san_gregorio.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+h3{
+    text-align: center;
+}
+
+footer{
+    background-color: beige;
+    padding: 20px 0px;
+    text-align: center;
+}
+
+.formulariocolor{
+    max-width: 25em;
+    padding: 1.3em;
+    margin: 0 auto;
+    background-color: rgbas(120, 119, 123, 0.3);
+    font-weight: bold;
+    border-radius: 0.5em;
+    box-shadow: inset 1px 1px 22px 4px rgba(0,0,0,0.85);
+}
+
+.logoTruequet{
+    width: 50px;
+    padding: 1px 0;
+}
+
+.logomde{
+    width: 130px;
+    margin: 10px 30px;
+}
+
+.iconos-redes{
+    width: 30px;
+    height: 2px 1px;
+}
+
+.transform:hover {
+    transform: scale(1.5);
+}
+
+.transition {
+    transition: all 0.5s ease-in-out;
+}
+
+.display-4{
+    color: black;
+    text-align: center;
+}
+
+.transform_material:hover {
+    transform: scale(1.1);
+}
+

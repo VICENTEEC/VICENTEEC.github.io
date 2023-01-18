@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Práctica de HTML">
+    <meta name="author" content="Alumno DIM XLV. Capitán Vicente Espiñeira Cachaza">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRUEQUET</title>
+    <!-- Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous"><link rel="icon" href="imagenes/favicon.ico">
+        <!-- Mi estilo CSS-->
+    <link rel="stylesheet" href="CSS/estilos_agregar.css" />
+
+        <!-- Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,500;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--Menu-->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                <img class="logoTruequet" src="imagenes/apple-icon-72x72.png" alt="">    
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+    
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">¿Qué es TruequET?</a>
+                        </li>
+    
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Unidades
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">RI 31</a>
+                                <a class="dropdown-item" href="#">RAC 61</a>
+                                <a class="dropdown-item" href="#">BCG XII</a>
+                                <a class="dropdown-item" href="#">GL XII</a>
+                                <a class="dropdown-item" href="#">GACA XII</a>
+                                <a class="dropdown-item" href="#">BZ XII</a>
+                                <a class="dropdown-item" href="#">USBA</a>
+                                <a class="dropdown-item" href="#">CECOM</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">BRIGADA XII</a>
+                            </div>
+                        </li>
+    
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+    
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Por ejemplo: sillas" aria-label="Búsqueda">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+                    </form>
+                
+                    <a href="login.html">
+                        <button type="button" class="btn btn-outline-info">Login</button> 
+                    </a>
+                </div>
+            </div>
+        </nav>
+            <!--Fin Menu-->
+    </header>
+
+    <main>   
+        <div class="container-fluid">
+            <div class="px-lg-5">
+          
+              <div class="row py-5">
+                <div class="col-lg-12 mx-auto">
+                  <div class="text-white p-5 shadow-sm rounded banner">
+                    <h1 class="display-4">MATERIAL TOTAL EN TU BAE</h1>
+                  </div>
+                </div>
+              </div>
+              <!-- Fin -->
+          
+              <div class="row">
+                <!-- Galeria -->
+                <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+                  <div class="bg-white rounded shadow-sm">
+                      <img src="imagenes/images.jpeg" alt="" class="img-fluid card-img-top transform_material" data-toggle="modal" data-target="#myModalusba">
+                      <div class="p-4">
+                          <h5> <a href="#" class="text-dark">Litera</a></h5>
+                          <p class="small text-muted mb-0">En buen estado. Tendrá 10 años.</p>
+                          <div class="d-flex align-items-center justify-content-between rounded-pill bg-light px-3 py-2 mt-4">
+                              <p class="small mb-0"><i class="fa fa-picture-o mr-2"></i><span class="font-weight-bold">USBA</span></p>
+                              <div class="badge badge-danger px-3 rounded-pill font-weight-normal">New</div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="modal" id="myModalusba">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <h2>CONTACTO:</h2>
+                    <p>TLF: 9111111111</p>
+                    <p>EMAIL: usbamail@mail.com</p>
+                  </div>
+                </div>
+              </div>
+                <!-- Fin -->
+          
+                <!-- Galeria-->
+                <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+                  <div class="bg-white rounded shadow-sm">
+                      <img src="imagenes/images2.jpeg" alt="" class="img-fluid card-img-top transform_material" data-toggle="modal" data-target="#myModalrac">
+                      <div class="p-4">
+                          <h5> <a href="#" class="text-dark">Silla</a></h5>
+                          <p class="small text-muted mb-0">Silla para maniobras.</p>
+                          <div class="d-flex align-items-center justify-content-between rounded-pill bg-light px-3 py-2 mt-4">
+                              <p class="small mb-0"><i class="fa fa-picture-o mr-2"></i><span class="font-weight-bold">RAC 61</span></p>
+                              <div class="badge badge-danger px-3 rounded-pill font-weight-normal">New</div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="modal" id="myModalrac">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <h2>CONTACTO:</h2>
+                    <p>TLF: 9111111111</p>
+                    <p>EMAIL: rac61mail@mail.com</p>
+                  </div>
+                </div>
+              </div>
+                <!-- Fin -->
+          
+                <!-- Galeria -->
+                <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+                  <div class="bg-white rounded shadow-sm">
+                      <img src="imagenes/images3.jpeg" alt="" class="img-fluid card-img-top transform_material" data-toggle="modal" data-target="#myModalbcg">
+                      <div class="p-4">
+                          <h5> <a href="#" class="text-dark">Botas negras Goretex</a></h5>
+                          <p class="small text-muted mb-0">Talla 43. Tienen 2 años y muchos kms encima, pero están bien.</p>
+                          <div class="d-flex align-items-center justify-content-between rounded-pill bg-light px-3 py-2 mt-4">
+                              <p class="small mb-0"><i class="fa fa-picture-o mr-2"></i><span class="font-weight-bold">BCG XII</span></p>
+                              <div class="badge badge-danger px-3 rounded-pill font-weight-normal">New</div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="modal" id="myModalbcg">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <h2>CONTACTO:</h2>
+                    <p>TLF: 9111111111</p>
+                    <p>EMAIL: bcgmail@mail.com</p>
+                  </div>
+                </div>
+              </div>
+                <!-- Fin -->
+          
+                <!-- Galeria -->
+                <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+                  <div class="bg-white rounded shadow-sm">
+                      <img src="imagenes/images4.jpeg" alt="" class="img-fluid card-img-top transform_material" data-toggle="modal" data-target="#myModalRI">
+                      <div class="p-4">
+                          <h5> <a href="#" class="text-dark">Mesa de la Plana del RI31</a></h5>
+                          <p class="small text-muted mb-0">2m x 1m aproximadamente. Está en buen estado. Se entrega por falta de espacio.</p>
+                          <div class="d-flex align-items-center justify-content-between rounded-pill bg-light px-3 py-2 mt-4">
+                              <p class="small mb-0"><i class="fa fa-picture-o mr-2"></i><span class="font-weight-bold">RI 31</span></p>
+                              <div class="badge badge-danger px-3 rounded-pill font-weight-normal">New</div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="modal" id="myModalRI">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <h2>CONTACTO:</h2>
+                    <p>TLF: 9111111111</p>
+                    <p>EMAIL: ri31mail@mail.com</p>
+                  </div>
+                </div>
+              </div>
+                <!-- Fin -->
+          
+                <!-- Galeria -->
+                <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+                  <div class="bg-white rounded shadow-sm">
+                      <img src="imagenes/images5.jpeg" alt="" class="img-fluid card-img-top transform_material" data-toggle="modal" data-target="#myModalgl">
+                      <div class="p-4">
+                          <h5> <a href="#" class="text-dark">Bidón gasoil</a></h5>
+                          <p class="small text-muted mb-0">Está nuevo pero tiene una fuga. No vale para líquidos</p>
+                          <div class="d-flex align-items-center justify-content-between rounded-pill bg-light px-3 py-2 mt-4">
+                              <p class="small mb-0"><i class="fa fa-picture-o mr-2"></i><span class="font-weight-bold">GL XII</span></p>
+                              <div class="badge badge-danger px-3 rounded-pill font-weight-normal">New</div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="modal" id="myModalgl">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <h2>CONTACTO:</h2>
+                    <p>TLF: 9111111111</p>
+                    <p>EMAIL: glmail@mail.com</p>
+                  </div>
+                </div>
+              </div>
+                <!-- Fin -->
+          
+                <!-- Galeria -->
+                <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+                  <div class="bg-white rounded shadow-sm">
+                      <img src="imagenes/images6.jpeg" alt="" class="img-fluid card-img-top transform_material" data-toggle="modal" data-target="#myModalcecom">
+                      <div class="p-4">
+                          <h5> <a href="#" class="text-dark">Bobina</a></h5>
+                          <p class="small text-muted mb-0">Bobina de madera. Se puede usar como mesa.</p>
+                          <div class="d-flex align-items-center justify-content-between rounded-pill bg-light px-3 py-2 mt-4">
+                              <p class="small mb-0"><i class="fa fa-picture-o mr-2"></i><span class="font-weight-bold">CECOM</span></p>
+                              <div class="badge badge-danger px-3 rounded-pill font-weight-normal">New</div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="modal" id="myModalcecom">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <h2>CONTACTO:</h2>
+                    <p>TLF: 9111111111</p>
+                    <p>EMAIL: cecommail@mail.com</p>
+                  </div>
+                </div>
+              </div>
+                <!-- Fin -->
+
+                <!-- Galeria -->                
+                <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+                  <div class="bg-white rounded shadow-sm">
+                      <img src="imagenes/images7.jpeg" alt="" class="img-fluid card-img-top transform_material" data-toggle="modal" data-target="#myModalgaca">
+                      <div class="p-4">
+                          <h5> <a href="#" class="text-dark">Palet</a></h5>
+                          <p class="small text-muted mb-0">Tiene 3 años. Recién barnizado.</p>
+                          <div class="d-flex align-items-center justify-content-between rounded-pill bg-light px-3 py-2 mt-4">
+                              <p class="small mb-0"><i class="fa fa-picture-o mr-2"></i><span class="font-weight-bold">GACA XII</span></p>
+                              <div class="badge badge-danger px-3 rounded-pill font-weight-normal">New</div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="modal" id="myModalgaca">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <h2>CONTACTO:</h2>
+                    <p>TLF: 9111111111</p>
+                    <p>EMAIL: gacamail@mail.com</p>
+                  </div>
+                </div>
+              </div>
+                <!-- Fin -->              
+
+              </div>
+              <div class="py-5 text-right"><a href="#" class="btn btn-dark px-5 py-3 text-uppercase">Más fotos</a></div>
+            </div>
+          </div>
+    </main>
+    <footer>
+ 
+        <a href="https://es-es.facebook.com/EjercitoTierra.Esp" target="_blank">
+            <img class="iconos-redes transition transform" src="imagenes/facebook.svg" alt="Facebook">
+        </a>
+        <a href="https://www.instagram.com/ejercitodetierra/?hl=es" target="_blank">
+            <img class="iconos-redes transition transform" src="imagenes/instagram.svg" alt="Instagram">
+        </a>
+        <a href="https://twitter.com/EjercitoTierra?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank">
+            <img class="iconos-redes transition transform" src="imagenes/twitter.svg" alt="Twitter">
+        </a>
+        
+        <a href="https://www.defensa.gob.es/medioambiente/" target="_blank">
+            <img class="logomde transition transform" src="imagenes/logoMDE.png" alt="MedioAmbienteDefensa">
+        </a>
+
+    </footer>
+
+    <!--Primero jquery, luego popper y finalmente Bootstrap JS-->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+
+</body>
+</html>

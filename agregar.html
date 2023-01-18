@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Práctica de HTML">
+    <meta name="author" content="Alumno DIM XLV. Capitán Vicente Espiñeira Cachaza">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRUEQUET</title>
+    <!-- Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="icon" href="imagenes/favicon.ico">
+        <!-- Mi estilo CSS-->
+    <link rel="stylesheet" href="CSS/estilos_agregar.css" />
+
+        <!-- Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,500;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--Menu-->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                <img class="logoTruequet" src="imagenes/apple-icon-72x72.png" alt="">    
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+    
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">¿Qué es TruequET?</a>
+                        </li>
+    
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Unidades
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">RI 31</a>
+                                <a class="dropdown-item" href="#">RAC 61</a>
+                                <a class="dropdown-item" href="#">BCG XII</a>
+                                <a class="dropdown-item" href="#">GL XII</a>
+                                <a class="dropdown-item" href="#">GACA XII</a>
+                                <a class="dropdown-item" href="#">BZ XII</a>
+                                <a class="dropdown-item" href="#">USBA</a>
+                                <a class="dropdown-item" href="#">CECOM</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">BRIGADA XII</a>
+                            </div>
+                        </li>
+    
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+    
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Por ejemplo: sillas" aria-label="Búsqueda">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+                    </form>
+                
+                    <a href="login.html">
+                        <button type="button" class="btn btn-outline-info">Login</button>
+    
+                    </a>
+                    
+                 
+                </div>
+            </div>
+        </nav>
+            <!--Fin Menu-->
+    </header>
+
+    <main>
+        <br><br><br><br><br><br><br><br><br>
+        <section class="container">
+            <div class="" row my-5>
+
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                <form action="" method="POST" class="formulariocolor">
+                    <h3>SUBE TU MATERIAL</h3>
+                    <div class="form-group">
+                        <label>Nombre:</label>
+                        <input type="text" placeholder="Introduce tu nombre" maxlenght="20" id="nombre" name="nombre" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label>Apellidos:</label>
+                        <input type="text" placeholder="Introduce tus apellidos" maxlenght="20" id="apellidos" name="apellidos" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label>Email:</label>
+                        <input type="email" placeholder="Introduce tu email" maxlenght="20" id="email" name="email" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label>Teléfono:</label>
+                        <input type="number" placeholder="Introduce tu teléfono" id="teléfono" name="teléfono" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label>Unidad:</label>
+                            <select name="unidad" id="unidad" form-group>
+                                <option value="RI31">RI31</option>
+                                <option value="RAC61">RAC61</option>
+                                <option value="BCG XII">BCG XII</option>
+                                <option value="GL XII">GL XII</option>
+                                <option value="GACA XII">GACA XII</option>
+                                <option value="BZ XII">BZ XII</option>
+                                <option value="USBA">USBA</option>
+                                <option value="CECOM">CECOM</option>
+                            </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Agregar archivos:</label>
+                        <input type="file" class="form-control">
+                    </div>
+
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-primary btn-block">Enviar Foto</button>
+                        <button type="reset" class="btn btn-success btn-block">Limpiar formulario</button>
+
+                    </div>
+
+                </form>
+            </div>
+            </div>
+        </section>
+    <br><br>
+    </main>
+
+    <footer>
+ 
+        <a href="https://es-es.facebook.com/EjercitoTierra.Esp" target="_blank">
+            <img class="iconos-redes transition transform" src="imagenes/facebook.svg" alt="Facebook">
+        </a>
+        <a href="https://www.instagram.com/ejercitodetierra/?hl=es" target="_blank">
+            <img class="iconos-redes transition transform" src="imagenes/instagram.svg" alt="Instagram">
+        </a>
+        <a href="https://twitter.com/EjercitoTierra?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank">
+            <img class="iconos-redes transition transform" src="imagenes/twitter.svg" alt="Twitter">
+        </a>
+        
+        <a href="https://www.defensa.gob.es/medioambiente/" target="_blank">
+            <img class="logomde transition transform" src="imagenes/logoMDE.png" alt="MedioAmbienteDefensa">
+        </a>
+
+    </footer>
+
+    <!--Primero jquery, luego popper y finalmente Bootstrap JS-->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+
+</body>
+</html>
